@@ -19,3 +19,4 @@ logging:
 #URL Configutation of another microservice
 application:
  url: http://localhost:8090/api/v1/applications
+

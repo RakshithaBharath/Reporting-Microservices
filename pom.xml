@@ -65,13 +65,19 @@
 		<!-- Swagger Dependency -->
 		<!--
 		https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
 			<version>1.6.14</version>
+		</dependency>-->
+
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.2.0</version>
 		</dependency>
 		<!-- Spring Reactor Dependency for Web Client-->
-		<!--
+		<!--\
 		https://mvnrepository.com/artifact/org.projectreactor/reactor-spring -->
 		<dependency>
 			<groupId>org.projectreactor</groupId>
@@ -92,6 +98,8 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+
+
 	</dependencies>
 
 	<build>
